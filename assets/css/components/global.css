@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    background-color: white;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elementsGauche{
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    align-items: center;
+}
+
+.menu{
+    background-color: white;
+    border: none;
+}
+
+h3{
+}
+
+.boutons-droite{
+    display: flex;
+    gap: 10px;
+    padding: 8px 28px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    border: none;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.connexion{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.inscription{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
